@@ -45,7 +45,8 @@
             <div class="col-sm-6">
                 <!-- Card for Condensed Milk -->
                 <div class="card mb-2" style="width: 18rem;">
-                    <img class="card-img-top" src="Shopping images/item1.jpg" alt="Condensed milk image">
+                    <!-- Improved alt text for better accessibility -->
+                    <img class="card-img-top" src="Shopping images/item1.jpg" alt="Condensed Milk in a can">
                     <div class="card-body">
                       <h5 class="card-title">Condensed Milk</h5>
                       <p class="card-text">Price: R24.00</p>
@@ -56,7 +57,8 @@
             <div class="col-sm-6">
                 <!-- Card for Chocolate Bar -->
                 <div class="card mb-2" style="width: 18rem;">
-                    <img class="card-img-top" src="Shopping images/item2.jpg" alt="Chocolate bar image">
+                    <!-- Improved alt text for better accessibility -->
+                    <img class="card-img-top" src="Shopping images/item2.jpg" alt="Chocolate Bar Packaging">
                     <div class="card-body">
                       <h5 class="card-title">Chocolate Bar</h5>
                       <p class="card-text">Price: R18.00</p>
@@ -172,14 +174,16 @@
 <footer class="bg-light text-center py-4">
     <div class="container">
         <h5>Contact Us</h5>
-        <form class="row g-3 justify-content-center">
+        <!-- Added ARIA label for the form -->
+        <form class="row g-3 justify-content-center" aria-label="Contact form">
             <div class="col-md-2">
                 <label for="email" class="form-label">Enter Email Here</label>
-                <input type="email" class="form-control" id="email" placeholder="Email" required> <!--Input for e-mail-->
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
             </div>
+            <!-- Improved placeholder text for clarity -->
             <div class="col-md-4">
-                <label for="phone" class="form-label">Enter Phone Number Here</label><!--Input for phone number-->
-                <input type="tel" class="form-control" id="phone" placeholder="Phone Number" required>
+                <label for="phone" class="form-label">Enter Phone Number Here</label>
+                <input type="tel" class="form-control" id="phone" placeholder="e.g., +1234567890" required>
             </div>
             <div class="col-md-4 d-flex align-items-end">
                 <button type="submit" class="btn btn-primary">Send</button> <!-- Submit button for the contact form -->
